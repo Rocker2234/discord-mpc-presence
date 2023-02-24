@@ -8,6 +8,9 @@ You can also run setup.ps1 on powershell as admin (Required for creating startup
 [Playback Icons by Sumberrejeki](https://www.flaticon.com/authors/sumberrejeki)
 
 ### Things to set up before you start using this
+#### On MPC-HC
+Goto Options (O) -> WebInterface -> ✔ Listen on Port. Default port 13579. Change accordingly on main.py for any other.
+#### Python
 * Make sure you have Python3 installed.
     * Install the package pypresence
   ```ps1
