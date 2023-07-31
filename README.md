@@ -12,19 +12,7 @@ You can also run setup.ps1 on powershell as admin (Required for creating startup
 Goto Options (O) -> WebInterface -> ✔ Listen on Port. Default port 13579. Change accordingly on main.py for any other.
 #### Python
 * Make sure you have Python3 installed.
-    * Install the package pypresence
-  ```ps1
-  pip install pypresence
-  ```  
-    * Install the package requests
-  ```ps1
-  pip install requests
-  ```
-    * Install the package lxml
-  ```ps1 
-  pip install lxml
-  ```
-    * Install the package beautifulsoup4
-  ```ps1 
-  pip install beautifulsoup4
+* Install all the required packages by running this command from project root
+```ps1
+  pip install -r requirements.txt
   ```

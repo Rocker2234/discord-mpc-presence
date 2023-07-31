@@ -61,6 +61,8 @@ class MPCPresence:
             title = soup.find('p', {"id": 'file'}).text
             if not self.keep_exn:
                 title = ".".join(title.split('.')[:-1])
+                if len(title) > 128:
+                    title = title[:125] + "..."
             self.statestring = soup.find('p', {"id": 'statestring'}).text.lower()
             if self.title != title:
                 self.title = title
